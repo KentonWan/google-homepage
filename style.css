@@ -1,0 +1,108 @@
+.top-left-nav, .top-right-nav, .bottom-left-nav, .bottom-right-nav{
+
+	font-family: arial, sans serif;
+	font-size: 13px;
+}
+.top-left-nav a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+	padding-left: 15px;
+	text-align: center;
+}
+
+.top-right-nav a {
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+
+}
+#center-image {
+	text-align: center;
+	display: block;
+}
+
+.search {
+	text-align: center;
+}
+
+.search input {
+	padding: 5px;
+}
+
+#searchbox .search-box {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	height: 30px;
+	width: 302px;
+	text-align: center;
+	margin: 10px;
+
+}
+
+.search input[type=submit], input[type=button]{
+	font-family: Arial;
+	font-size: 1em;
+	background-color: #D3D3D3;
+	opacity: 0.75;
+	color: #696969;
+	border-style: none;
+}
+
+.search input[type=submit]:hover, input[type=button]:hover {
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.bottom-left-nav {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	float: left;
+	height: 30px;
+	width: 50%;
+	background-color: #DCDCDC;
+}
+
+.bottom-left-nav a {
+	float: left;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+	padding: 5px 0 5px 15px;
+	text-align: left;
+}
+
+.bottom-right-nav {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	float: right;
+	height: 30px;
+	width: 50%;
+	background-color: #DCDCDC;
+}
+
+.bottom-right-nav a {
+	float: right;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+	text-align: center;
+	padding: 5px 15px 5px 0;
+
+}
